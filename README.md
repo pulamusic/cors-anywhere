@@ -1,3 +1,15 @@
+> Jim Carroll |
+> 01/04/2021 |
+> [GitHub Profile](https://github.com/pulamusic)
+
+---
+
+# cors-anywhere proxy server
+
+Cloned and adapted from [Rob Wu's repo](https://github.com/Rob--W/cors-anywhere/). Below is the original `README` text.
+
+---
+
 [![Build Status](https://travis-ci.org/Rob--W/cors-anywhere.svg?branch=master)](https://travis-ci.org/Rob--W/cors-anywhere)
 [![Coverage Status](https://coveralls.io/repos/github/Rob--W/cors-anywhere/badge.svg?branch=master)](https://coveralls.io/github/Rob--W/cors-anywhere?branch=master)
 
@@ -89,10 +101,10 @@ proxy requests. The following options are supported:
 * function `getProxyForUrl` - If set, specifies which intermediate proxy to use for a given URL.
   If the return value is void, a direct request is sent. The default implementation is
   [`proxy-from-env`](https://github.com/Rob--W/proxy-from-env), which respects the standard proxy
-  environment variables (e.g. `https_proxy`, `no_proxy`, etc.).  
-* array of strings `originBlacklist` - If set, requests whose origin is listed are blocked.  
+  environment variables (e.g. `https_proxy`, `no_proxy`, etc.).
+* array of strings `originBlacklist` - If set, requests whose origin is listed are blocked.
   Example: `['https://bad.example.com', 'http://bad.example.com']`
-* array of strings `originWhitelist` - If set, requests whose origin is not listed are blocked.  
+* array of strings `originWhitelist` - If set, requests whose origin is not listed are blocked.
   If this list is empty, all origins are allowed.
   Example: `['https://good.example.com', 'http://good.example.com']`
 * function `checkRateLimit` - If set, it is called with the origin (string) of the request. If this
@@ -100,16 +112,16 @@ proxy requests. The following options are supported:
 * boolean `redirectSameOrigin` - If true, requests to URLs from the same origin will not be proxied but redirected.
   The primary purpose for this option is to save server resources by delegating the request to the client
   (since same-origin requests should always succeed, even without proxying).
-* array of strings `requireHeader` - If set, the request must include this header or the API will refuse to proxy.  
-  Recommended if you want to prevent users from using the proxy for normal browsing.  
+* array of strings `requireHeader` - If set, the request must include this header or the API will refuse to proxy.
+  Recommended if you want to prevent users from using the proxy for normal browsing.
   Example: `['Origin', 'X-Requested-With']`.
-* array of lowercase strings `removeHeaders` - Exclude certain headers from being included in the request.  
+* array of lowercase strings `removeHeaders` - Exclude certain headers from being included in the request.
   Example: `["cookie"]`
-* dictionary of lowercase strings `setHeaders` - Set headers for the request (overwrites existing ones).  
+* dictionary of lowercase strings `setHeaders` - Set headers for the request (overwrites existing ones).
   Example: `{"x-powered-by": "CORS Anywhere"}`
-* number `corsMaxAge` - If set, an Access-Control-Max-Age request header with this value (in seconds) will be added.  
+* number `corsMaxAge` - If set, an Access-Control-Max-Age request header with this value (in seconds) will be added.
   Example: `600` - Allow CORS preflight request to be cached by the browser for 10 minutes.
-* string `helpFile` - Set the help file (shown at the homepage).  
+* string `helpFile` - Set the help file (shown at the homepage).
   Example: `"myCustomHelpText.txt"`
 
 For advanced users, the following options are also provided.
