@@ -9,7 +9,7 @@
 Cloned and adapted from [Rob Wu's repo](https://github.com/Rob--W/cors-anywhere/). Below is the original `README` text.
 
 ```zsh
-git remote set-url https://github.com/Rob--W/cors-anywhere.git https://github.com/pulamusic/cors-anywhere.git
+git remote set-url origin https://github.com/pulamusic/cors-anywhere.git
 ```
 
 ---
