@@ -6,13 +6,21 @@
 
 # cors-anywhere proxy server
 
-Cloned and adapted from [Rob Wu's repo](https://github.com/Rob--W/cors-anywhere/). Below is the original `README` text.
+> This app was cloned and adapted from [Rob Wu's repo](https://github.com/Rob--W/cors-anywhere/). Below is the original `README` text.
 
-```zsh
-git remote set-url origin https://github.com/pulamusic/cors-anywhere.git
-```
+This is an extra project associated with [ZTM's JavaScript Web Projects tutorial](https://academy.zerotomastery.io/courses/1007166/lectures/21153159). It should also come in greatly handy with other projects such as the insult generator and the dogs image gallery. I stalled out on both of those projects because of CORS issues I couldn't resolve.
+
+Oh shit, yes, [I almost forgot the screenshot app](https://screenshotlayer.com/dashboard). That will be a cool one.
 
 ---
+
+#### deploying to Heroku
+
+Here is the [current URL for this Heroku app](https://pure-mountain-34791.herokuapp.com/). I need to rename it.
+
+---
+
+#### original `README` notes
 
 [![Build Status](https://travis-ci.org/Rob--W/cors-anywhere.svg?branch=master)](https://travis-ci.org/Rob--W/cors-anywhere)
 [![Coverage Status](https://coveralls.io/repos/github/Rob--W/cors-anywhere/badge.svg?branch=master)](https://coveralls.io/github/Rob--W/cors-anywhere?branch=master)
