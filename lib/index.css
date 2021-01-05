@@ -1,0 +1,81 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+code {
+  font-family: 'Source Code Pro', monospace;
+  font-weight: 300;
+  background-color: rgba(239, 238, 238, 0.8);
+}
+
+hr {
+  width: 60%;
+}
+
+a {
+  text-decoration: none;
+  outline: none;
+  color: rgba(163, 35, 60, 0.6);
+}
+
+a:hover {
+  color: rgba(163, 35, 60, 1);
+}
+
+table {
+  border: 0.2em solid rgba(45, 45, 45, 0.1);
+  border-radius: 0.4em;
+  padding: 0.6em;
+  margin: 1.4em auto;
+  background-color: rgba(194, 187, 215, 0.2);
+  border-collapse: collapse;
+}
+
+th {
+  border: 0.2em solid rgba(45, 45, 45, 0.1);
+  padding: 0.8em;
+}
+
+td {
+  padding: 0.8em;
+  border-right: 0.2em solid rgba(45, 45, 45, 0.1);
+  border-bottom: 0.05em solid rgba(45, 45, 45, 0.2);
+}
+
+.container {
+  margin: 0 2em;
+  padding: 0.6em;
+}
+
+header {
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.2em;
+  font-weight: 400;
+  letter-spacing: 0.8em;
+  line-height: 1.8em;
+  margin: 1em 0;
+}
+
+main {
+  margin: 1em 0;
+  padding: 0.6em;
+}
+
+footer {
+  text-align: center;
+  margin: 2em 0;
+}
+
+footer p {
+  font-size: 1.2em;
+}
