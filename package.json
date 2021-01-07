@@ -29,6 +29,7 @@
     "server.js"
   ],
   "dependencies": {
+    "dotenv": "^8.2.0",
     "http-proxy": "^1.18.1",
     "proxy-from-env": "0.0.1"
   },
